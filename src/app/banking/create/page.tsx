@@ -99,7 +99,7 @@ export default function CreateBankAccountPage() {
         description: "",
       },
     },
-  }) as UseFormProps<FormValues>;
+  }); 
 
   const mutation = useMutation({
     mutationFn: async (data: FormValues) => {
