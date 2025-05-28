@@ -40,7 +40,7 @@ export function ExpenseBreakdown() {
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>
-              <ChartTooltip content={<ChartTooltipContent /> as unknown as string} />
+              <ChartTooltip content={<ChartTooltipContent /> } />
               <Legend />
             </PieChart>
           </ResponsiveContainer>

@@ -73,7 +73,7 @@ export function CashFlowChart() {
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="month" />
               <YAxis />
-              <ChartTooltip content={<ChartTooltipContent /> as unknown as string} />
+              <ChartTooltip content={<ChartTooltipContent /> } />
               <Legend />
               <Bar dataKey="inflow" fill="var(--color-inflow, hsl(var(--primary)))" name="Cash Inflow" />
               <Bar dataKey="outflow" fill="var(--color-outflow, hsl(var(--muted-foreground)))" name="Cash Outflow" />

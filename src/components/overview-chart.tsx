@@ -39,7 +39,7 @@ export function FinanceOverviewChart() {
             <LineChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
               <XAxis dataKey="month" />
               <YAxis />
-              <ChartTooltip content={<ChartTooltipContent /> as unknown as string} />
+              <ChartTooltip content={<ChartTooltipContent />} />
               <Line
                 type="monotone"
                 dataKey="income"
