@@ -96,13 +96,15 @@ const defaultValues: Partial<ExpenseFormValues> = {
   taxDeductible: false,
   receiptRequired: true,
 };
+
+
 export default function CreateExpensePage() {
   const router = useRouter();
   const [attachments, setAttachments] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("details");
 
   const form = useForm<ExpenseFormValues>({
-    resolver: zodResolver<ExpenseFormValues>(expenseFormSchema) ,
+    resolver: expenseFormSchema as Resolver<ExpenseFormValues>,
     defaultValues,
   });
 
