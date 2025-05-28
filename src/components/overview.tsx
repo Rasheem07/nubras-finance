@@ -1,7 +1,7 @@
 "use client"
 
 import { Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts"
-import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@nubras/ui"
+import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 
 const data = [
   { month: "Jan", income: 4000, expenses: 2400 },
