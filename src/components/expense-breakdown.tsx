@@ -23,7 +23,7 @@ export function ExpenseBreakdown() {
         <CardDescription>Distribution of expenses by category</CardDescription>
       </CardHeader>
       <CardContent>
-        <ChartContainer className="h-[350px]">
+        <div className="h-[350px]">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
@@ -44,7 +44,7 @@ export function ExpenseBreakdown() {
               <Legend />
             </PieChart>
           </ResponsiveContainer>
-        </ChartContainer>
+        </div>
       </CardContent>
     </Card>
   )
