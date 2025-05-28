@@ -30,7 +30,7 @@ import {
 import { format } from "date-fns"
 import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
-import { cn } from "@nubras/utils"
+import { cn } from "@/lib/utils"
 import { toast } from "@nubras/ui"
 
 // 1) Define schema so that output = exactly your form type

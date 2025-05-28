@@ -18,7 +18,7 @@ import {
   Settings,
   Home,
 } from "lucide-react"
-import { cn } from "@nubras/utils"
+import { cn } from "@/lib/utils"
 import { useEffect } from "react"
 
 export function FinanceSidebar() {
