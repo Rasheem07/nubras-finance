@@ -102,7 +102,7 @@ export default function CreateExpensePage() {
   const [activeTab, setActiveTab] = useState("details");
 
   const form = useForm<ExpenseFormValues>({
-    resolver: zodResolver(expenseFormSchema) as Resolver<ExpenseFormValues>,
+    resolver: zodResolver<ExpenseFormValues>(expenseFormSchema) ,
     defaultValues,
   });
 
