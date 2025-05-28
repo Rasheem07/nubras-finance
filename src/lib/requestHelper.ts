@@ -26,7 +26,8 @@ export const PostRequest = async (
   path: string,
   body: any,
   options?: any,
-  header?: any
+  header?: any,
+  errMsg: string = "Some error occured while fetching",
 ) => {
   const response = await fetch(`${BASE_API_URL}/${path}`, {
     method: "POST",
