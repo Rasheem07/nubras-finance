@@ -1573,7 +1573,7 @@ Dubai, UAE
                       </CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <Link href="/finance/terms-conditions">
+                      <Link href="/terms-conditions">
                         <Button variant="outline" className="w-full">
                           View & Edit
                         </Button>

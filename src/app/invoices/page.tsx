@@ -333,7 +333,7 @@ export default function InvoicesPage() {
   }
 
   const handleCreate = () => {
-    router.push("/finance/invoices/create")
+    router.push("/invoices/create")
   }
 
   const handleTreeNodeSelect = (node: TreeNode) => {

@@ -368,7 +368,7 @@ export default function JournalEntriesPage() {
   };
 
   const handleCreate = () => {
-    router.push("/finance/journal-entries/create");
+    router.push("/journal-entries/create");
   };
 
   const handleTreeNodeSelect = (node: TreeNode) => {

@@ -365,11 +365,11 @@ export default function ChartOfAccountsPage() {
   }
 
   const handleCreate = () => {
-    router.push("/finance/accounts/create")
+    router.push("/accounts/create")
   }
 
   const handleAccountReconciliation = () => {
-    router.push("/finance/account-reconciliation")
+    router.push("/account-reconciliation")
   }
 
   const handleTreeNodeSelect = (node: TreeNode) => {

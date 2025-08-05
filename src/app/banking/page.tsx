@@ -375,15 +375,15 @@ export default function BankingPage() {
   }
 
   const handleCreate = () => {
-    router.push("/finance/banking/create")
+    router.push("/banking/create")
   }
 
   const handleBankReconciliation = () => {
-    router.push("/finance/bank-reconciliation")
+    router.push("/bank-reconciliation")
   }
 
   const handleImportStatement = () => {
-    router.push("/finance/banking/import")
+    router.push("/banking/import")
   }
 
   const handleTreeNodeSelect = (node: TreeNode) => {
@@ -428,19 +428,19 @@ export default function BankingPage() {
 
       {/* Quick Links Section */}
       <div className="flex flex-wrap gap-2 pb-2">
-        <Link href="/finance/bank-reconciliation">
+        <Link href="/bank-reconciliation">
           <Button variant="outline" size="sm" className="gap-2">
             <FileCheck className="h-4 w-4" />
             <span>Bank Reconciliation</span>
           </Button>
         </Link>
-        <Link href="/finance/bank-reconciliation/new">
+        <Link href="/bank-reconciliation/new">
           <Button variant="outline" size="sm" className="gap-2">
             <Plus className="h-4 w-4" />
             <span>New Reconciliation</span>
           </Button>
         </Link>
-        <Link href="/finance/banking/import">
+        <Link href="/banking/import">
           <Button variant="outline" size="sm" className="gap-2">
             <Upload className="h-4 w-4" />
             <span>Import Statement</span>

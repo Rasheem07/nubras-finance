@@ -228,13 +228,13 @@ export default function CreatePaymentPage() {
 
     toast.success("Payment has been created successfully")
 
-    router.push("/finance/payments")
+    router.push("/payments")
   }
 
   return (
     <div className="container mx-auto p-6 space-y-8">
       <div className="flex items-center space-x-4">
-        <Button variant="ghost" size="icon" onClick={() => router.push("/finance/payments")}>
+        <Button variant="ghost" size="icon" onClick={() => router.push("/payments")}>
           <ArrowLeft className="h-5 w-5" />
         </Button>
         <div>
@@ -1002,7 +1002,7 @@ export default function CreatePaymentPage() {
         </Tabs>
 
         <div className="flex justify-end space-x-4">
-          <Button type="button" variant="outline" onClick={() => router.push("/finance/payments")} className="px-6">
+          <Button type="button" variant="outline" onClick={() => router.push("/payments")} className="px-6">
             <X className="mr-2 h-4 w-4" />
             Cancel
           </Button>
